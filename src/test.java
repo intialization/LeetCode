@@ -6,12 +6,12 @@ import java.util.List;
  */
 public class test {
     public static void main(String[] args) {
-        int m = 2;
-        int n = 3;
-        int[][] a={};
-
-        LC598 ans = new LC598();
-        var b = ans.maxCount(m,n,a);
-        System.out.println(b);
+        int[] a =new int[]{0,0,0,1,1,0,1,0};
+        int N = 574;
+        LC957 lc957 = new LC957();
+        var ans = lc957.prisonAfterNDays(a,N);
+        for (int an : ans) {
+            System.out.print(an+"    ");
+        }
     }
 }
