@@ -22,7 +22,6 @@ public class LC957 {
     }
     public int[] func(int[] cells, int N){
         int[] ans = new int[cells.length];
-        int max = 0;
         while(N > 0){
             for(int i = 1; i < cells.length-1;i++){
                 ans[i] = 1- cells[i-1] ^ cells[i+1];
