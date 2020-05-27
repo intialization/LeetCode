@@ -1,17 +1,17 @@
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 /**
  * @author 贲阳林
  */
 public class test {
     public static void main(String[] args) {
-        int[] a =new int[]{0,0,0,1,1,0,1,0};
-        int N = 574;
-        LC957 lc957 = new LC957();
-        var ans = lc957.prisonAfterNDays(a,N);
-        for (int an : ans) {
-            System.out.print(an+"    ");
+        String a = "apple apple";
+        String b = "banana";
+        LC884 lc884 = new LC884();
+        String[] strings = lc884.uncommonFromSentences(a, b);
+        for (String string : strings) {
+            System.out.println(string);
         }
     }
+
 }
