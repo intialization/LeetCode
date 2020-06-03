@@ -5,13 +5,12 @@ import java.util.*;
  */
 public class test {
     public static void main(String[] args) {
-        String a = "apple apple";
-        String b = "banana";
-        LC884 lc884 = new LC884();
-        String[] strings = lc884.uncommonFromSentences(a, b);
-        for (String string : strings) {
-            System.out.println(string);
+        int[] candies =new int[]{4,2,1,1,2};
+        int extraCandies =3;
+        LC1431 a= new LC1431();
+        var ans=a.kidsWithCandies(candies,extraCandies);
+        for (Boolean an : ans) {
+            System.out.println(an);
         }
     }
-
 }
