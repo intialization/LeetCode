@@ -1,4 +1,4 @@
-import org.jetbrains.annotations.NotNull;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ import java.util.List;
  * @author 贲阳林
  */
 public class LC884 {
-    public String[] uncommonFromSentences(@NotNull String A, String B) {
+    public String[] uncommonFromSentences( String A, String B) {
         List<String> ans= new ArrayList<>();
         String all =A.concat(" "+B);
         String[] split = all.split(" ");
